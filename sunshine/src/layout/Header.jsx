@@ -21,7 +21,7 @@ export default function Header() {
               <Link to={"/about"}>About Us</Link>
             </li>
             <li>
-              <Link to={"/members"}>Members</Link>
+              <Link to={"/member"}>Members</Link>
             </li>
             <li>
               <Link to={"/tournaments"}>Tournaments</Link>
