@@ -3,8 +3,8 @@ import ClubCard from './ClubCard'
 
 export default function ClubsLayout() {
   return (
-    <>  <div className="  px-4 py-10 bg-gray-200 ">
-    <div className="text-5xl py-5 pb-7 text-center font-sans font-black text-[#222831] w-full">
+    <>  <div className="  px-4 pt-5 pb-10 bg-[#F8F9F9] ">
+    <div className="text-5xl py-5 mb-14 underline underline-offset-4 text-center font-sans font-black text-[#222831] w-full">
       CLUBS
     </div>
     <div className="grid  ">

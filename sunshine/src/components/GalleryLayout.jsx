@@ -67,18 +67,21 @@ const ImageSlider = () => {
     img15,
   ];
   return (
-    <>
+    <div className=" w-full h-full bg-white" >
+        <div className="text-5xl   pt-10   bg-white underline underline-offset-4 text-center font-sans font-black text-[#222831] w-full">
+GALLERY
+    </div>
       <Slider {...settings}>
         {images.map((image) => (
           <>
-            <div className=" h-[400px] bg-white p-10  flex justify-center items-center gap-10  w-full">
+            <div className=" h-[400px]  p-10  flex justify-center items-center gap-10  w-full">
               <div className="  w-full h-full"></div>
               <img src={image} alt="Image 1" />
             </div>
           </>
         ))}
       </Slider>
-    </>
+    </div>
   );
 };
 
