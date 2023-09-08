@@ -17,19 +17,19 @@ export default function Header() {
           </label>
           <ul className="menu">
             <li>
-              <Link to={"/"}>Home</Link>
+              <Link className=" uppercase text-lg font-bold" to={"/"}>Home</Link>
             </li>
             <li>
-              <Link to={"/about"}>About Us</Link>
+              <Link className=" uppercase text-lg font-bold" to={"/about"}>About Us</Link>
             </li>
             <li>
-              <Link to={"/member"}>Members</Link>
+              <Link className=" uppercase text-lg font-bold" to={"/member"}>Members</Link>
             </li>
             <li>
-              <Link to={"/tournaments"}>Tournaments</Link>
+              <Link className=" uppercase text-lg font-bold" to={"/tournaments"}>Tournaments</Link>
             </li>
             <li>
-              <Link to={"/contact"}>Contact Us</Link>
+              <Link className=" uppercase text-lg font-bold" to={"/contact"}>Contact Us</Link>
             </li>
           </ul>
         </nav>
