@@ -35,7 +35,7 @@ export default function Member() {
             <div className="border-solid w-full md:w-[400px] max-w-2xl  lg:w-[400px]  justify-around  bg-white items-center  border-[#f2f4f7] shadow-[0px_4px_6px_-2px_rgba(16,_24,_40,_0.03),_0px_12px_16px_-4px_rgba(16,_24,_40,_0.08)]  flex flex-row   h-[220px]   border rounded-lg">
               <div className="   rounded-full p-12      w-full  ">
                 <img
-                  className="  drop-shadow-2xl   rounded-full  sm:max-w-[12rem] md:max-w-[15rem]      "
+                  className="  drop-shadow-xl    rounded-full  sm:max-w-[12rem] md:max-w-[15rem]      "
                   src= {data.image}
                   alt="profile"
                 />
