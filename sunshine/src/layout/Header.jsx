@@ -9,7 +9,7 @@ export default function Header() {
                {/* <a href="index.html">
            Sunshine.<span>Karate</span>
             </a> */}
-            <img className=" px-2 ml-4 my-2"  width={60} src={logo} alt="logo" />
+            <img className=" px-2 ml-4 my-2"  width={40} src={logo} alt="logo" />
           </div>
           <input type="checkbox" id="menu-toggle" />
           <label htmlFor="menu-toggle" className="menu-icon">
