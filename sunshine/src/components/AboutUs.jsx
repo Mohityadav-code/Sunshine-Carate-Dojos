@@ -4,7 +4,7 @@ export default function AboutUs() {
   return (
     <>
       <div className="bg-[#F4F4F7] pt-5  w-full h-full">
-        <div className="flex w-full text-center   justify-center items-center flex-col ">
+        <div className="flex flex-col items-center justify-center w-full text-center ">
           <div className="text-5xl py-5 pb-7 underline underline-offset-4 text-center font-sans font-black text-[#222831] w-full">
             About Us
           </div>
@@ -27,7 +27,7 @@ export default function AboutUs() {
           </div>
 
           <div className="text-[#7a7a7a]  text-[17px] my-6 pb-6  text-justify  mx-3 lg:mx-16 md:mx-16 leading-relaxed font-[400]">
-            <span className=" font-bold">Our Legacy</span>
+            <span className="font-bold ">Our Legacy</span>
             With a legacy spanning numerous years, Sunshine Budokan Karate Dojos
             stands as a prominent figure in martial arts education within our
             community. Our dedicated instructors, deeply committed to the art of
