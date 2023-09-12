@@ -5,6 +5,12 @@ import sujin from "./sujin.svg";
 import Section from "../../layout/Section";
 
 export default function AboutUsPage() {
+  const arr = [
+    " Welcome to Sunshine Budokan Karate Dojos, your starting point for self-improvement and martial mastery, rooted in karate's core values.",
+    "Our dojo isn't just about martial arts; it's a character-building journey. We offer top-tier martial arts training that enhances physical fitness, self-defense skills, and personal growth. As the dojo's founder, I've devoted my life to karate's philosophy, witnessing its transformative power in our students. Through rigorous training, they develop mental resilience, face life's challenges head-on, and build lasting bonds within our supportive community.",
+    "Sunshine Budokan Karate Dojos isn't just a place to learn karate; it's where you'll unearth your inner strength, embrace personal growth, and embark on a journey towards your best self. Explore our programs on our website, and most importantly, visit our dojo to experience the profound impact of martial arts firsthand.",
+    "Thank you for considering Sunshine Budokan Karate Dojos as your martial arts home. We eagerly await the opportunity to guide you toward excellence, both on and off the dojo floor.",
+  ];
   return (
     <>
       <div
@@ -18,7 +24,7 @@ export default function AboutUsPage() {
         }}
       >
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60">
-          <div className="flex flex-col items-start justify-center w-full h-full gap-10 pl-20 ">
+          <div className="flex flex-col items-start justify-center w-full h-full gap-10 pl-20 ml-20 ">
             <div className=" text-[55px]  text-white font-[750] leading-8 ">
               SSBKD
             </div>
@@ -31,49 +37,69 @@ export default function AboutUsPage() {
             </div>
           </div>
         </div>
-        <div className="w-full h-full ">
-
-        </div>
-        <Section
-          title="OUR FOUNDERS"
-          bg={"bg-[#F8F9F9"}
-          children={
-            <>
-              <div className="flex items-center justify-around w-full h-auto gap-10 mt-14 ">
-                <div className="flex-col items-center justify-center w-full h-full gap-3 mb-20">
-                    <div className="flex items-center justify-center w-full ">
-                          <img width={400} src={seelan} alt="" />
-                        </div>
-                  <div className=" my-  text-[25px] font-bold text-center text-[#FF0303]">
-                    Shihan.A.P.Seelan
-                  </div>
-                  <div className=" font-[800] text-[20px]  text-center text-black text-md">
-                    Black Belt VI Dan
-                  </div>
-                  <div className=" font-[800] text-[20px]  text-center text-black text-md">
-                    Zonal Chief Instructor - KBI
-                  </div>
+        <div className="w-full h-full "></div>
+      </div>
+      <Section
+        title="OUR FOUNDERS"
+        bg={"bg-[#F8F9F9"}
+        children={
+          <>
+            <div className="flex items-center justify-around w-full h-auto gap-44 mt-14 ">
+              <div className="flex-col items-center justify-center w-full h-full gap-3 mb-20">
+                <div className="flex items-center justify-center w-full mt-10 ">
+                  <img width={350} src={seelan} alt="" />
                 </div>
-                <div className="flex-col items-center justify-center w-full h-full gap-3 mb-20 ">
-                    <div className="flex items-center justify-center w-full h-full">
-
-                  <img width={400} src={sujin} alt="" />
-                    </div>
-                  <div className="text-[25px] font-bold my- text-center text-[#FF0303]">
-                    Shihan.V.Sujin
-                  </div>
-                  <div className=" font-[800] text-[20px]  text-center text-black text-md">
-                    Black Belt VI Dan
-                  </div>
-                  <div className=" font-[800] text-[20px]  text-center text-black text-md">
-                    Zonal Chief Instructor - KBI
-                  </div>
+                <div className=" my-  text-[23px] font-bold text-center text-[#FF0303]">
+                  Shihan.A.P.Seelan
+                </div>
+                <div className=" font-[800] text-[18px]  text-center text-black text-md">
+                  Black Belt VI Dan
+                </div>
+                <div className=" font-[800] text-[18px]  text-center text-black text-md">
+                  Zonal Chief Instructor - KBI
                 </div>
               </div>
-            </>
-          }
-        />
-      </div>
+              <div className="flex-col items-center justify-center w-full h-full gap-3 mb-20 ">
+                <div className="flex items-center justify-center w-full h-full mt-10">
+                  <img width={350} src={sujin} alt="" />
+                </div>
+                <div className="text-[23px] font-bold my- text-center text-[#FF0303]">
+                  Shihan.V.Sujin
+                </div>
+                <div className=" font-[800] text-[18px]  text-center text-black text-md">
+                  Black Belt VI Dan
+                </div>
+                <div className=" font-[800] text-[18px]  text-center text-black text-md">
+                  Zonal Chief Instructor - KBI
+                </div>
+              </div>
+            </div>
+          </>
+        }
+      />
+      <Section
+        bg={"bg-[#fff]"}
+        children={
+          <>
+            <div className="px-20 ml-20 ">
+              <div className="flex w-full h-auto ">
+                <div className=" font-[800] text-start text-[#222831] text-[25px]">
+                  Founders Message
+                </div>
+              </div>
+              <div className="my-8 "></div>
+              {arr.map((item) => {
+                return (
+                  <div className="flex my-5 py-1 items-center justify-start pr-20  font-[500] leading-10 text-black  text-[18px]">
+                    {item}
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        }
+      />
+      
     </>
   );
 }
