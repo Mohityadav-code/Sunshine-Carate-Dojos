@@ -52,7 +52,7 @@ export default function Footer() {
         </div>
         <div className="flex items-center justify-center w-full py-3 bg-red-600 ">
           <div className=" justify-center items-center h-full text-white text-[15px]">
-            © 2021 All Rights Reserved. Designed by
+            © 2023 All Rights Reserved. Designed by
             <span className="text-[#bbbbbb] text-[15px] pl-2 font-semibold">
               TechHive
             </span>
