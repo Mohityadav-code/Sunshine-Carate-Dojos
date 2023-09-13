@@ -10,7 +10,6 @@ import Section from "../../layout/Section";
 
 export default function AboutUsPage() {
   const arr = [
-    " Welcome to Sunshine Budokan Karate Dojos, your starting point for self-improvement and martial mastery, rooted in karate's core values.",
     "Our dojo isn't just about martial arts; it's a character-building journey. We offer top-tier martial arts training that enhances physical fitness, self-defense skills, and personal growth. As the dojo's founder, I've devoted my life to karate's philosophy, witnessing its transformative power in our students. Through rigorous training, they develop mental resilience, face life's challenges head-on, and build lasting bonds within our supportive community.",
     "Sunshine Budokan Karate Dojos isn't just a place to learn karate; it's where you'll unearth your inner strength, embrace personal growth, and embark on a journey towards your best self. Explore our programs on our website, and most importantly, visit our dojo to experience the profound impact of martial arts firsthand.",
     "Thank you for considering Sunshine Budokan Karate Dojos as your martial arts home. We eagerly await the opportunity to guide you toward excellence, both on and off the dojo floor.",
@@ -97,6 +96,11 @@ export default function AboutUsPage() {
                 </div>
               </div>
               <div className="my-8 "></div>
+              <div className="flex my-5 text-justify py-1 items-center justify-start pr-2  lg:pr-20  font-[500] leading-10 text-black  text-[18px]">
+                   
+             Welcome to  <span className="px-2 font-bold text-red-400 "> Sunshine Budokan Karate Dojos </span>  , your starting point for self-improvement and martial mastery, rooted in karate's core values.,
+                  </div>
+
               {arr.map((item) => {
                 return (
                   <div className="flex my-5 text-justify py-1 items-center justify-start pr-2  lg:pr-20  font-[500] leading-10 text-black  text-[18px]">

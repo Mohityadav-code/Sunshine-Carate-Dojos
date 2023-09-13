@@ -10,10 +10,10 @@ import linkedin from "./linkedin.svg"
 export default function Footer() {
   return (
     <>
-      <div className="w-full absolute   -left-0 bg-[#000] h-auto">
-        <div className="container flex flex-wrap w-full h-full mt-10 ml- lg:px-16 px-7 lg:flex-nowrap ">
+      <div className="w-full  py-3 bg-[#000] h-auto">
+        <div className="container flex flex-wrap w-full h-full mt-10 lg:px-16 px-7 lg:flex-nowrap ">
           <div className="flex flex-col justify-between w-full h-full mt-10 lg:mt-0">
-            <div className="text-3xl pl-3 mb-4 text-[#fff]   tracking-widest">
+            <div className=" text-[24px]  pl-3 mb-4 text-[#fff]   font-bold  tracking-widest">
               Our Clubs
             </div>
             <div className="w-full h-full ml-8 contact ">
@@ -40,9 +40,12 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
+          <div className="w-full h-full ">
+
           <Contact />
-          <div className="flex items-center justify-center w-full gap-10 my-5 lg:w-auto lg:items-end lg:ml-0 "> 
+          </div>
+          <div className="flex items-center justify-center w-full gap-10 my-5 lg:w-[40%] lg:items-end lg:ml-0 "> 
           <img width={30} src={facebook} alt="" />
           <img width={30} src={twitter} alt="" />
           <img width={30} src={instagram} alt="" />
@@ -50,6 +53,11 @@ export default function Footer() {
 
           </div>
         </div>
+
+
+
+
+      </div>
         <div className="flex items-center justify-center w-full py-3 bg-red-600 ">
           <div className=" justify-center items-center h-full text-white text-[15px]">
             © 2023 All Rights Reserved. Designed by
@@ -58,14 +66,7 @@ export default function Footer() {
             </span>
           </div>
         </div>
-      </div>
-      {/* <FloatingWhatsApp
-        showPopup={false}
-        phoneNumber="+918925799512"
-        accountName="Techhive Technology"
-        statusMessage="Available"
-        avatar="https://www.techhive.co.in/img/logo.png"
-      /> */}
+       
     </>
   );
 }

@@ -7,7 +7,7 @@ import location from "./location.svg";
 export default function Contact() {
   return (
     <div className="flex flex-col w-full h-full mt-10 lg:mt-0">
-      <div className="text-3xl pl-3 mb-4 text-[#fff]   tracking-widest">
+      <div className="text-[22px] pl-3 mb-4 text-[#fff] font-bold    tracking-widest">
         Contact Info
       </div>
       <div className="w-full h-full contact ">
