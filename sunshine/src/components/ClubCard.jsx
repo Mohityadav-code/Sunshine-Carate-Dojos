@@ -23,7 +23,7 @@ export default function ClubCard({
         <div className="flex flex-col ">
           <div className="flex justify-around w-full ">
             <div className="text-[14px] h-full w-[30%]">Instructor :</div>
-            <div className="text-[14px] flex justify-start  h-20 w-[70%]">
+            <div className="text-[14px] flex flex-col justify-start  h-20 w-[70%]">
             <div  >
               
                  {InstructorName}
