@@ -10,7 +10,7 @@ export default function AboutUs() {
           </div>
 
           <div className="text-[#7a7a7a] mt-6 text-[17px] text-justify   mx-6 lg:mx-16 md:mx-16 leading-relaxed font-[400]">
-            Welcome to <span className="px-1 text-red-600 "> Sunshine Budokan Karate Dojos</span>! We are proud to be the
+            Welcome to <span className="px-1 font-bold text-red-600 "> Sunshine Budokan Karate Dojos</span>! We are proud to be the
             premier martial arts training center located in the picturesque town
             of Karinkal, nestled within the vibrant region of Kanyakumari, Tamil
             Nadu, India. Our mission is dedicated to providing top-notch Karate
