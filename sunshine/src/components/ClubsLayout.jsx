@@ -15,7 +15,8 @@ export default function ClubsLayout() {
           title="Chemmankalai Dojo"
           InstructorName="P.P.Siva Yajnic "
           belt=" Black Belt II Dan"
-          ClassTime="Sunday Evening  4:30 PM to 6:30 PM"
+          ClassTime="Sunday Evening  "
+          time="4:30 PM to 6:30 PM"
           Venue=" SVN Bhavan, Chemmankalai,Edaicode."
         />
       </div>
@@ -27,7 +28,8 @@ export default function ClubsLayout() {
           title="MULucode dojo"
           InstructorName="S. Galvin Robert "
           belt=" Black Belt II Dan"
-          ClassTime="Sunday Evening  4:30 PM to 6:30 PM"
+          ClassTime="Sunday Evening  "
+          time="4:30 PM to 6:30 PM"
           Venue=" Mulucode  
 Chemmankalai,Edaicode"
         />
@@ -40,7 +42,8 @@ Chemmankalai,Edaicode"
           InstructorName="Arvin. C. Raj "
           belt=" Black Belt II Dan"
           
-          ClassTime="Saturday Evening  4:00 PM to 6:00 PM"
+          ClassTime="Saturday Evening "
+          time=" 4:00 PM to 6:00 PM"
           Venue=" Padantalumood. 
 Chemmankalai,Edaicode"
         />
@@ -52,7 +55,8 @@ Chemmankalai,Edaicode"
           title="KOnacheri dojo"
           InstructorName="M. Aarush"
           belt="Brown Belt"
-          ClassTime="Saturday Evening  4:00 PM to 6:00 PM"
+          ClassTime="Saturday Evening "
+          time=" 4:00 PM to 6:00 PM"
           Venue=" Konacheri. 
 Chemmankalai,Edaicode"
         />

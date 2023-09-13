@@ -8,6 +8,7 @@ export default function ClubCard({
   ClassTime,
   belt,
   Venue,
+  time
 }) {
   return (
     <div className="card">
@@ -35,9 +36,15 @@ export default function ClubCard({
           </div>
           <div className="flex justify-around w-full py-1 ">
             <div className="text-[14px] h-full w-[30%]">Timing :</div>
-            <div className="text-[14px] flex justify-center  h-20 w-[70%]">
-              {ClassTime}
-            </div>
+            <div className="text-[14px] flex flex-col justify-start  h-20 w-[70%]">
+            <div  >
+              
+                 {ClassTime}
+              </div>
+              <div  >
+               {time}
+           </div>
+           </div>
           </div>
           <div className="flex justify-around w-full ">
             <div className="text-[14px] h-full w-[30%]">Venue :</div>
