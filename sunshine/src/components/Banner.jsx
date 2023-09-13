@@ -19,7 +19,7 @@ const Carousel = () => {
 
   return (
     <div className="relative">
-      <div className="w-full h-[400px] overflow-hidden">
+      <div className="w-full  h-[250px] lg:h-[400px] overflow-hidden">
         {images.map((image, index) => (
           <div
             key={index}
@@ -47,22 +47,22 @@ const Carousel = () => {
           ></button>
         ))}
       </div>
-      <div className="absolute bottom-0 left-0 flex items-center mb-4 ml-4">
+      {/* <div className="absolute bottom-0 left-0 flex items-center mb-4 ml-4 top-1/4">
         <button
-          className="text-white text-lg font-bold"
+          className="text-lg font-bold text-white"
           onClick={prevSlide}
         >
           &lt;
         </button>
       </div>
-      <div className="absolute bottom-0 right-0 flex items-center mb-4 mr-4">
+      <div className="absolute bottom-0 right-0 flex items-center mb-4 mr-4 top-1/4">
         <button
-          className="text-white text-lg font-bold"
+          className="text-lg font-bold text-white"
           onClick={nextSlide}
         >
           &gt;
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

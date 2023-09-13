@@ -10,7 +10,7 @@ export default function Home() {
     <div>
     
       <div className=" bg-[#ffffff]">
-        <p class="text-[#D2001A] text-center font-sans text-[48px]  font-[700] leading-normal">
+        <p class="text-[#D2001A] text-center font-sans  text-[35px]  lg:text-[48px]  font-[700] leading-normal">
           Sunshine Budokan Karate Dojos
         </p>
         <p class="text-[#040404] text-center font-sans text-[24px]  font-[700] leading-normal">

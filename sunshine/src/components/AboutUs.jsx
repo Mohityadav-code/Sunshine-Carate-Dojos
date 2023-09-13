@@ -9,7 +9,7 @@ export default function AboutUs() {
             About Us
           </div>
 
-          <div className="text-[#7a7a7a] mt-6 text-[17px] text-justify   mx-3 lg:mx-16 md:mx-16 leading-relaxed font-[400]">
+          <div className="text-[#7a7a7a] mt-6 text-[17px] text-justify   mx-6 lg:mx-16 md:mx-16 leading-relaxed font-[400]">
             Welcome to Sunshine Budokan Karate Dojos! We are proud to be the
             premier martial arts training center located in the picturesque town
             of Karinkal, nestled within the vibrant region of Kanyakumari, Tamil
@@ -17,7 +17,7 @@ export default function AboutUs() {
             training to students of all age groups and skill levels, fostering
             discipline, strength, and a deep appreciation for martial arts.
           </div>
-          <div className="text-[#7a7a7a] mt-6 text-[17px]  text-justify  mx-3 lg:mx-16 md:mx-16 leading-relaxed font-[400]">
+          <div className="text-[#7a7a7a] mt-6 text-[17px]  text-justify  mx-6 lg:mx-16 md:mx-16 leading-relaxed font-[400]">
             At Sunshine Budokan, our experienced and certified instructors bring
             a wealth of knowledge and a passion for Karate, ensuring that every
             student receives the highest quality instruction. Whether you're a
@@ -26,8 +26,8 @@ export default function AboutUs() {
             place to grow and achieve your goals.
           </div>
 
-          <div className="text-[#7a7a7a]  text-[17px] my-6 pb-6  text-justify  mx-3 lg:mx-16 md:mx-16 leading-relaxed font-[400]">
-            <span className="font-bold ">Our Legacy</span>
+          <div className="text-[#7a7a7a]  text-[17px] my-6 pb-6  text-justify  mx-6 lg:mx-16 md:mx-16 leading-relaxed font-[400]">
+            <span className="pr-1 font-bold ">Our Legacy :</span>
             With a legacy spanning numerous years, Sunshine Budokan Karate Dojos
             stands as a prominent figure in martial arts education within our
             community. Our dedicated instructors, deeply committed to the art of
