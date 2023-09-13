@@ -6,7 +6,7 @@ export default function AboutUs() {
       <div className="bg-[#F4F4F7] pt-5  w-full h-full">
         <div className="flex flex-col items-center justify-center w-full text-center ">
           <div className="text-5xl py-5 pb-7 underline underline-offset-4 text-center font-sans font-black text-[#222831] w-full">
-            About Us
+           Who we are ?
           </div>
 
           <div className="text-[#7a7a7a] mt-6 text-[17px] text-justify   mx-6 lg:mx-16 md:mx-16 leading-relaxed font-[400]">
