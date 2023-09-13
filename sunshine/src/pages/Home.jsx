@@ -19,7 +19,10 @@ export default function Home() {
       </div>  <Banner/>
       <AboutUs/>
       <ClubsLayout/>
+      <div className="w-full h-full ">
+
       <GalleryLayout/>
+      </div>
       <IconsLayout/>
     
     </div>

@@ -23,7 +23,7 @@ export default function AboutUsPage() {
   return (
     <>
       <div
-        className="w-full h-[500px]  "
+        className="w-full  h-[250px] lg:h-[500px]  "
         style={{
           backgroundImage: `url(${banner})`,
           backgroundRepeat: "no-repeat",
@@ -34,15 +34,15 @@ export default function AboutUsPage() {
       >
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60">
         </div>
-          <div className="z-30 flex flex-col items-start justify-center w-full h-full pl-20 ml-20 ">
-            <div className=" text-[55px]  z-10 text-white font-[750] leading-8 ">
+          <div className="z-30 flex flex-col items-start justify-center w-full h-full pl-10 md:pl-20 lg:pl-40 ">
+            <div className="    text-[45px] lg:text-[55px]  z-10 text-white font-[750] leading-8 ">
               SSBKD
             </div>
-            <div className=" font-normal  z-10  text-[35px] mt-10 capitalize text-[#d6d6d6]">
+            <div className=" font-normal  z-10   text-[25px]  lg:text-[35px] mt-10 capitalize text-[#d6d6d6]">
               Where Warriors Rise!
             </div>
-            <div className="  font-semibold  z-10 text-[20px] flex  gap-10  capitalize text-[#fff]">
-              <div>500+ Warriors</div>
+            <div className="  font-semibold  z-10 text-[20px] flex-wrap flex  gap-2    capitalize text-[#fff]">
+              <div className="pr-10 ">500+ Warriors</div>
               <div>25+ Trainers</div>
             </div>
           </div>
@@ -53,10 +53,10 @@ export default function AboutUsPage() {
         bg={"bg-[#F8F9F9"}
         children={
           <>
-            <div className="flex items-center justify-around w-full h-auto gap-44 mt-14 ">
+            <div className="flex flex-wrap items-center justify-around w-full h-auto gap-10 mt-5 lg:flex-nowrap lg:gap-44 lg:mt-14 ">
               <div className="flex-col items-center justify-center w-full h-full gap-3 mb-20">
                 <div className="flex items-center justify-center w-full mt-10 ">
-                  <img width={350} src={seelan} alt="" />
+                  <img className=" lg:w-[350px] w-[320px]"  src={seelan} alt="" />
                 </div>
                 <div className=" my-  text-[23px] font-bold text-center text-[#FF0303]">
                   Shihan.A.P.Seelan
@@ -70,7 +70,7 @@ export default function AboutUsPage() {
               </div>
               <div className="flex-col items-center justify-center w-full h-full gap-3 mb-20 ">
                 <div className="flex items-center justify-center w-full h-full mt-10">
-                  <img width={350} src={sujin} alt="" />
+                  <img className=" lg:w-[350px] w-[320px]"   src={sujin} alt="" />
                 </div>
                 <div className="text-[23px] font-bold my- text-center text-[#FF0303]">
                   Shihan.V.Sujin
@@ -90,7 +90,7 @@ export default function AboutUsPage() {
         bg={"bg-[#fff]"}
         children={
           <>
-            <div className="px-20 mb-20 ml-20 ">
+            <div className="px-2 mb-20 ml-4 lg:ml-20 lg:px-20">
               <div className="flex w-full h-auto ">
                 <div className=" font-[800] text-start text-[#222831] text-[25px]">
                   Founders Message
@@ -99,7 +99,7 @@ export default function AboutUsPage() {
               <div className="my-8 "></div>
               {arr.map((item) => {
                 return (
-                  <div className="flex my-5 py-1 items-center justify-start pr-20  font-[500] leading-10 text-black  text-[18px]">
+                  <div className="flex my-5 py-1 items-center justify-start pr-2  lg:pr-20  font-[500] leading-10 text-black  text-[18px]">
                     {item}
                   </div>
                 );
@@ -115,7 +115,7 @@ export default function AboutUsPage() {
         children={
           <>
             <div className="w-full h-full mt-10 mb-20 ">
-              <div className="flex items-center justify-around w-full h-full ">
+              <div className="flex flex-wrap items-center justify-around w-full h-full gap-10 lg:flex-nowrap ">
                 {arr2.map((item) => {
                   return (
                     <>

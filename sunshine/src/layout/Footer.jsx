@@ -18,22 +18,22 @@ export default function Footer() {
             </div>
             <div className="w-full h-full ml-8 contact ">
               <div className="flex flex-col justify-around w-full h-full ">
-                <div className="flex items-center py-4">
+                <div className="flex items-center py-2 lg:py-4">
                   <p className="text-[#fff]  pl-2  text-[17px] font-sans">
                     CHEMMANKALAI DOJO{" "}
                   </p>
                 </div>
-                <div className="flex items-center py-4">
+                <div className="flex items-center py-2 lg:py-4">
                   <p className="text-[#fff]  pl-2  text-[17px] font-sans">
                   MULUCODE DOJO
                   </p>
                 </div>
-                <div className="flex items-center py-4">
+                <div className="flex items-center py-2 lg:py-4">
                   <p className="text-[#fff]  pl-2  text-[17px] font-sans">
                   PADANTALUMOOD DOJO
                   </p>
                 </div>
-                <div className="flex items-center py-4">
+                <div className="flex items-center py-2 lg:py-4">
                   <p className="text-[#fff]  pl-2  text-[17px] font-sans">
                   KONACHERI DOJO
                   </p>
