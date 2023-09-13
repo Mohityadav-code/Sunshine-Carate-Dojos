@@ -6,6 +6,7 @@ export default function ClubCard({
   title,
   InstructorName,
   ClassTime,
+  belt,
   Venue,
 }) {
   return (
@@ -20,21 +21,27 @@ export default function ClubCard({
           {title}
         </h1>
         <div className="flex flex-col ">
-          <div className="flex items-center justify-around w-full ">
+          <div className="flex justify-around w-full ">
             <div className="text-[14px] h-full w-[30%]">Instructor :</div>
-            <div className="text-[14px] flex justify-start items-center h-20 w-[70%]">
-              {InstructorName}
+            <div className="text-[14px] flex justify-start  h-20 w-[70%]">
+            <div  >
+              
+                 {InstructorName}
+              </div>
+              <div  >
+               {belt}
+           </div>
             </div>
           </div>
-          <div className="flex items-center justify-around w-full py-1 ">
+          <div className="flex justify-around w-full py-1 ">
             <div className="text-[14px] h-full w-[30%]">Timing :</div>
-            <div className="text-[14px] flex justify-center items-center h-20 w-[70%]">
+            <div className="text-[14px] flex justify-center  h-20 w-[70%]">
               {ClassTime}
             </div>
           </div>
-          <div className="flex items-center justify-around w-full ">
+          <div className="flex justify-around w-full ">
             <div className="text-[14px] h-full w-[30%]">Venue :</div>
-            <div className="text-[14px] flex justify-center items-center h-20 w-[70%]">
+            <div className="text-[14px] flex justify-center  h-20 w-[70%]">
               {Venue}
             </div>
           </div>

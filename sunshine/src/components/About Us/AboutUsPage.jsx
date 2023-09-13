@@ -99,7 +99,7 @@ export default function AboutUsPage() {
               <div className="my-8 "></div>
               {arr.map((item) => {
                 return (
-                  <div className="flex my-5 py-1 items-center justify-start pr-2  lg:pr-20  font-[500] leading-10 text-black  text-[18px]">
+                  <div className="flex my-5 text-justify py-1 items-center justify-start pr-2  lg:pr-20  font-[500] leading-10 text-black  text-[18px]">
                     {item}
                   </div>
                 );
