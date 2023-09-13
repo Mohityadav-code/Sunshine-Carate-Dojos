@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="text-3xl pl-3 mb-4 text-[#fff]   tracking-widest">
               Our Clubs
             </div>
-            <div className="w-full h-full contact ">
+            <div className="w-full h-full ml-8 contact ">
               <div className="flex flex-col justify-around w-full h-full ">
                 <div className="flex items-center py-4">
                   <p className="text-[#fff]  pl-2  text-[17px] font-sans">
@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
           </div>
           <Contact />
-          <div className="flex items-end justify-center gap-10 my-3 "> 
+          <div className="flex items-center justify-center w-full gap-10 my-5 lg:w-auto lg:items-end lg:ml-0 "> 
           <img width={30} src={facebook} alt="" />
           <img width={30} src={twitter} alt="" />
           <img width={30} src={instagram} alt="" />

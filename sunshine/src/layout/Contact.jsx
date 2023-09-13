@@ -16,13 +16,20 @@ export default function Contact() {
             <img width={20} src={location} alt="globe" className="text-white    hover:text-[#ff8a73] mx-2"/>
 
             <div className="flex flex-col justify-center ">
-              <div className="text-[#fff]  pl-4  text-[17px] font-sans">
+              <div className="text-[#fff] hidden lg:block  pl-4  text-[17px] font-sans">
                 27, Maran Nagar, Poonamallee, Chennai, 
                 
               </div>
-              <div className="text-[#fff]  pl-4   text-[17px] font-sans">
+              <div className="text-[#fff] hidden lg:block  pl-4   text-[17px] font-sans">
                 Thiruvallur, Tamil Nadu -
                 600 056.
+              </div>
+            
+              <div className="text-[#fff] block  lg:hidden   pl-4  text-[17px] font-sans">
+                27, Maran Nagar, Poonamallee, Chennai, 
+                    Thiruvallur, Tamil Nadu -
+                600 056.
+           
               </div>
             </div>
           </div>
@@ -66,7 +73,7 @@ export default function Contact() {
             </svg> */}
             <img width={20} src={smartphone} alt="globe" className="text-white    hover:text-[#ff8a73] mx-2"/>
 
-            <div className="flex items-center justify-center">
+            <div className="flex flex-wrap items-center justify-start lg:justify-center">
               <a
                 href="tel:+917598749731"
                 class="text-[#fff] pl-4 text-[17px] font-sans hover:text-[#ffdbdb] hover:underline"
