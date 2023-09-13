@@ -6,16 +6,16 @@ import location from "./location.svg"
 
 export default function Contact() {
   return (
-    <div className="flex mt-10 lg:mt-0   flex-col w-full h-full">
+    <div className="flex flex-col w-full h-full mt-10 lg:mt-0">
       <div className="text-3xl pl-3 mb-4 text-[#fff]   tracking-widest">
         Contact Info
       </div>
-      <div className="contact   w-full h-full ">
-        <div className="flex flex-col  justify-between   w-full  h-full ">
-          <div className="location py-3 flex justify-start  items-center">
+      <div className="w-full h-full contact ">
+        <div className="flex flex-col justify-between w-full h-full ">
+          <div className="flex items-center justify-start py-3 location">
             <img width={20} src={location} alt="globe" className="text-white    hover:text-[#ff8a73] mx-2"/>
 
-            <div className="flex flex-col justify-center  ">
+            <div className="flex flex-col justify-center ">
               <div className="text-[#fff]  pl-4  text-[17px] font-sans">
                 27, Maran Nagar, Poonamallee, Chennai, 
                 
@@ -27,7 +27,7 @@ export default function Contact() {
             </div>
           </div>
          
-          <div className="location py-3 flex justify-start  items-center">
+          <div className="flex items-center justify-start py-3 location">
             {/* <svg
               className="text-white    hover:text-[#ff8a73] mx-2"
               xmlns="http://www.w3.org/2000/svg"
@@ -40,16 +40,16 @@ export default function Contact() {
               <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
             </svg> */}
             <img width={20} src={gmail} alt="globe" className="text-white    hover:text-[#ff8a73] mx-2"/>
-            <div className="flex justify-center items-center">
+            <div className="flex items-center justify-center">
               <a
-                href="mailto:admin@techhivetechnology.com"
+                href="mailto:SSBKD@gmail.com"
                 class="text-[#fff] pl-5 text-[17px] font-sans  hover:text-[#faa4a4] hover:underline"
               >
-                <p>admin@chennai.in</p>
+                <p>SSBKD@gmail.com</p>
               </a>
             </div>
           </div>
-          <div className="location py-3 flex justify-start  items-center">
+          <div className="flex items-center justify-start py-3 location">
             {/* <svg
               className="text-white    hover:text-[#ff8a73] mx-2"
               xmlns="http://www.w3.org/2000/svg"
@@ -66,16 +66,21 @@ export default function Contact() {
             </svg> */}
             <img width={20} src={smartphone} alt="globe" className="text-white    hover:text-[#ff8a73] mx-2"/>
 
-            <div className="flex justify-center items-center">
+            <div className="flex items-center justify-center">
               <a
-                href="tel:+918754805968"
+                href="tel:+917598749731"
                 class="text-[#fff] pl-4 text-[17px] font-sans hover:text-[#ffdbdb] hover:underline"
               >
-                +91 98413 46080
+              +91 75987 49731,
+              </a>  <a
+                href="tel:+919486000674"
+                class="text-[#fff] pl-4 text-[17px] font-sans hover:text-[#ffdbdb] hover:underline"
+              >
+        +91 94860 00674
               </a>
             </div>
           </div>
-          <div className="location py-3 flex justify-start  items-center">
+          <div className="flex items-center justify-start py-3 location">
             {/* <svg
               className="text-white    hover:text-[#ff8a73] mx-2"
               xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +94,7 @@ export default function Contact() {
               <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
             </svg> */}
             <img width={20} src={globe} alt="globe" className="text-white    hover:text-[#ff8a73] mx-2"/>
-            <div className="flex justify-center items-center">
+            <div className="flex items-center justify-center">
               <a
                 href="/www.chennaicabs.in"
                 class="text-[#fff] pl-4 text-[17px] font-sans hover:text-[#ffd9d9] hover:underline"

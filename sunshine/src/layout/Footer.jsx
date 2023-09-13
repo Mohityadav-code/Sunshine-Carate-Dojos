@@ -1,5 +1,9 @@
 import React from "react";
 import Contact from "./Contact";
+import facebook from "./facebook 1.svg"
+import twitter from "./twitter.svg"
+import instagram from "./instagram.svg"
+import linkedin from "./linkedin.svg"
 
 // import { FloatingWhatsApp } from "react-floating-whatsapp";
 
@@ -7,29 +11,29 @@ export default function Footer() {
   return (
     <>
       <div className="w-full absolute   -left-0 bg-[#000] h-auto">
-        <div className="container  ml-  mt-10  lg:px-16 px-7  w-full h-full flex-wrap lg:flex-nowrap   flex ">
-          <div className="flex mt-10 lg:mt-0  justify-between  flex-col w-full h-full">
+        <div className="container flex flex-wrap w-full h-full mt-10 ml- lg:px-16 px-7 lg:flex-nowrap ">
+          <div className="flex flex-col justify-between w-full h-full mt-10 lg:mt-0">
             <div className="text-3xl pl-3 mb-4 text-[#fff]   tracking-widest">
               Our Clubs
             </div>
-            <div className="contact    w-full h-full ">
-              <div className="flex flex-col  justify-around   w-full  h-full ">
-                <div className="flex py-4   items-center">
+            <div className="w-full h-full contact ">
+              <div className="flex flex-col justify-around w-full h-full ">
+                <div className="flex items-center py-4">
                   <p className="text-[#fff]  pl-2  text-[17px] font-sans">
                     CHEMMANKALAI DOJO{" "}
                   </p>
                 </div>
-                <div className="flex py-4  items-center">
+                <div className="flex items-center py-4">
                   <p className="text-[#fff]  pl-2  text-[17px] font-sans">
                   MULUCODE DOJO
                   </p>
                 </div>
-                <div className="flex py-4  items-center">
+                <div className="flex items-center py-4">
                   <p className="text-[#fff]  pl-2  text-[17px] font-sans">
                   PADANTALUMOOD DOJO
                   </p>
                 </div>
-                <div className="flex py-4  items-center">
+                <div className="flex items-center py-4">
                   <p className="text-[#fff]  pl-2  text-[17px] font-sans">
                   KONACHERI DOJO
                   </p>
@@ -38,8 +42,15 @@ export default function Footer() {
             </div>
           </div>
           <Contact />
+          <div className="flex items-end justify-center gap-10 my-3 "> 
+          <img width={30} src={facebook} alt="" />
+          <img width={30} src={twitter} alt="" />
+          <img width={30} src={instagram} alt="" />
+          <img width={30} src={linkedin} alt="" />
+
+          </div>
         </div>
-        <div className="w-full bg-red-600  flex justify-center items-center   py-3 ">
+        <div className="flex items-center justify-center w-full py-3 bg-red-600 ">
           <div className=" justify-center items-center h-full text-white text-[15px]">
             © 2021 All Rights Reserved. Designed by
             <span className="text-[#bbbbbb] text-[15px] pl-2 font-semibold">

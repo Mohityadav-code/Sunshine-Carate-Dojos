@@ -3,7 +3,7 @@ import "./Header.css"
 import logo from "./SunshineLogo.png"
 export default function Header() {
     return (
-      <header className="z-50 header">
+      <header className="z-50 w-full h-full header">
         <nav>
           <div className="z-50 ">
                {/* <a href="index.html">
@@ -25,9 +25,9 @@ export default function Header() {
             <li>
               <Link className="text-lg font-bold uppercase " to={"/member"}>Members</Link>
             </li>
-            <li>
+            {/* <li>
               <Link className="text-lg font-bold uppercase " to={"/tournaments"}>Tournaments</Link>
-            </li>
+            </li> */}
             <li>
               <Link className="text-lg font-bold uppercase " to={"/contactUs"}>Contact Us</Link>
             </li>
