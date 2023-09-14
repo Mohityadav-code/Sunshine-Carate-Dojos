@@ -133,7 +133,7 @@ export default function Member() {
       <div className="flex flex-wrap items-center justify-center w-full h-full gap-8 ">
         {data.map((data) => (
             
-            <div className="border-solid w-full md:w-[400px] max-w-2xl mx-8  lg:w-[400px]  justify-around  bg-white items-center  border-[#f2f4f7] shadow-[0px_4px_6px_-2px_rgba(16,_24,_40,_0.03),_0px_12px_16px_-4px_rgba(16,_24,_40,_0.08)]  flex flex-row   h-[220px]   border rounded-lg">
+            <div className="border-solid w-full md:w-[400px] max-w-2xl  lg:w-[400px]  justify-around  bg-white items-center  border-[#f2f4f7] shadow-[0px_4px_6px_-2px_rgba(16,_24,_40,_0.03),_0px_12px_16px_-4px_rgba(16,_24,_40,_0.08)]  flex flex-row   h-[220px]   border rounded-lg">
               <div className="w-full p-12 rounded-full ">
                 <img
                   className="  drop-shadow-xl    rounded-full  sm:max-w-[12rem] md:max-w-[15rem]      "
