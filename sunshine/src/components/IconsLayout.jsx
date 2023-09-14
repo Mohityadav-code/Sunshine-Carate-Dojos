@@ -28,7 +28,7 @@ export default function IconsLayout() {
       <div className="text-5xl py-5 mt-5 underline underline-offset-4 text-center font-sans font-black text-[#222831] w-full">
         ICONS OF KBI
       </div>
-      <div className="flex flex-wrap items-center justify-around w-full h-auto p-10 mt-5 lg:flex-nowrap lg:gap-44 lg:mt-14 ">
+      <div className="flex flex-wrap items-center justify-around w-full h-auto p-10 mt-5 md:flex-wrap lg:flex-nowrap lg:gap-44 lg:mt-14 ">
         {arr.map((item, index) => {
           return (
             <div className="flex-col items-center justify-center w-full h-full gap-3 mb-20">

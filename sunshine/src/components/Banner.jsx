@@ -16,17 +16,11 @@ const Carousel = () => {
 
     return () => clearInterval(interval);
   }, [images.length]);
-  const nextSlide = () => {
-    setCurrentSlide((currentSlide + 1) % images.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((currentSlide - 1 + images.length) % images.length);
-  };
+ 
 
   return (
     <div className="relative">
-      <div className="w-full  h-[280px] lg:h-[400px] overflow-hidden">
+      <div className="w-full  h-[160px] lg:h-[350px] overflow-hidden">
         {images.map((image, index) => (
           <div
             key={index}
