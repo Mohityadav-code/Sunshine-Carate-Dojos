@@ -1,14 +1,21 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Carousel = () => {
   const images = [
-    'https://tecdn.b-cdn.net/img/Photos/Slides/img%20(123).jpg',
-    'https://tecdn.b-cdn.net/img/Photos/Slides/img%20(124).jpg',
-    'https://tecdn.b-cdn.net/img/Photos/Slides/img%20(125).jpg',
+    'https://zodiacmatctest.s3.amazonaws.com/banner1.jpg',
+    'https://zodiacmatctest.s3.amazonaws.com/banner2.jpg',
+    'https://zodiacmatctest.s3.amazonaws.com/banner3.jpg',
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [images.length]);
   const nextSlide = () => {
     setCurrentSlide((currentSlide + 1) % images.length);
   };
@@ -19,7 +26,7 @@ const Carousel = () => {
 
   return (
     <div className="relative">
-      <div className="w-full  h-[250px] lg:h-[400px] overflow-hidden">
+      <div className="w-full  h-[280px] lg:h-[400px] overflow-hidden">
         {images.map((image, index) => (
           <div
             key={index}
