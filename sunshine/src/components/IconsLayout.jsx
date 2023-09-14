@@ -21,7 +21,7 @@ export default function IconsLayout() {
     { name: "Grand Master", img: icon1, text: "Richard L T Chew" },
     { name: "World Chief", img: icon2, text: "Wayne Mac Donald" },
     { name: "Asian Chief", img: icon3, text: "B Paramesh" },
-    { name: "Asian Chief", img: icon4, text: "K Mahesh Babu" },
+    { name: "Senior Instructor  ", img: icon4, text: "K Mahesh Babu" },
   ];
   return (
     <div className=" w-full h-full pb-10 bg-[#F8F9F9]">
@@ -32,7 +32,7 @@ export default function IconsLayout() {
         {arr.map((item, index) => {
           return (
             <div className="flex-col items-center justify-center w-full h-full gap-3 mb-20">
-              <div className="flex items-center justify-center w-full mt-10 shadow-lg ">
+              <div className="flex items-center justify-center w-full mt-10 ">
                 <img
                   className=" lg:w-[400px] w-[320px]"
                   src={item.img}
