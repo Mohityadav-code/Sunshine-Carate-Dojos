@@ -7,8 +7,8 @@ const Carousel = () => {
     'https://zodiacmatctest.s3.amazonaws.com/banner3.jpg',
   ];
 
-  const [currentSlide, setCurrentSlide] = useState(0);
 
+  const [currentSlide, setCurrentSlide] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
@@ -17,10 +17,17 @@ const Carousel = () => {
     return () => clearInterval(interval);
   }, [images.length]);
  
+  const nextSlide = () => {
+    setCurrentSlide((currentSlide + 1) % images.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((currentSlide - 1 + images.length) % images.length);
+  };
 
   return (
     <div className="relative">
-      <div className="w-full  h-[160px] lg:h-[350px] overflow-hidden">
+  <div className="w-full  h-[160px] lg:h-[450px] overflow-hidden">
         {images.map((image, index) => (
           <div
             key={index}

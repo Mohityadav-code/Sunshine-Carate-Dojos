@@ -96,9 +96,9 @@ export default function AboutUsPage() {
                 </div>
               </div>
               <div className="my-8 "></div>
-              <div className="flex my-5 text-justify py-1 items-center justify-start pr-2  lg:pr-20  font-[500] leading-10 text-black  text-[18px]">
+              <div className="  my-5 text-justify py-1 items-center justify-start pr-2  w-full lg:pr-20  font-[500] leading-10 text-black  text-[18px]">
                    
-             Welcome to  <span className="px-2 font-bold text-red-400 "> Sunshine Budokan Karate Dojos </span>  , your starting point for self-improvement and martial mastery, rooted in karate's core values.,
+             Welcome to  <span className="px-2 font-bold text-red-600 "> Sunshine Budokan Karate Dojos </span>  , your starting point for self-improvement and martial mastery, rooted in karate's core values.,
                   </div>
 
               {arr.map((item) => {

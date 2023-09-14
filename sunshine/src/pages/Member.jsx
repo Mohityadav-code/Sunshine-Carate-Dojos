@@ -130,23 +130,23 @@ export default function Member() {
      ]
   return (
     <div class=" p-1 lg:p-10 mt-5">
-      <div className="flex flex-wrap items-center justify-center w-full h-full gap-8 ">
+      <div className="flex flex-wrap gap-8  w-full h-full justify-center items-center  ">
         {data.map((data) => (
             
             <div className="border-solid w-full md:w-[400px] max-w-2xl  lg:w-[400px]  justify-around  bg-white items-center  border-[#f2f4f7] shadow-[0px_4px_6px_-2px_rgba(16,_24,_40,_0.03),_0px_12px_16px_-4px_rgba(16,_24,_40,_0.08)]  flex flex-row   h-[220px]   border rounded-lg">
-              <div className="w-full p-12 rounded-full ">
+              <div className="   rounded-full p-12      w-full  ">
                 <img
                   className="  drop-shadow-xl    rounded-full  sm:max-w-[12rem] md:max-w-[15rem]      "
                   src= {data.image}
                   alt="profile"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center w-full h-full">
-                <div className="w-full font-sans text-2xl font-bold uppercase whitespace-nowrap">
+              <div className="flex flex-col    justify-center items-center    h-full w-full">
+                <div className="whitespace-nowrap uppercase text-2xl font-sans font-bold    w-full">
                     {data.name}
                 </div>
     
-                <div className="w-full font-sans text-2xl font-bold capitalize whitespace-nowrap">
+                <div className="whitespace-nowrap text-2xl font-sans font-bold capitalize w-full">
                     {data.belt}
                 </div>
               </div>
